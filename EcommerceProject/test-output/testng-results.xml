@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-29T20:46:04 IST" name="Default suite" finished-at="2024-12-29T20:46:51 IST" duration-ms="46893">
+    <groups>
+    </groups>
+    <test started-at="2024-12-29T20:46:04 IST" name="Default test" finished-at="2024-12-29T20:46:51 IST" duration-ms="46893">
+      <class name="com.Test.IndexPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:04 IST" name="setup" finished-at="2024-12-29T20:46:17 IST" duration-ms="12640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setupReport()[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:17 IST" name="setupReport" finished-at="2024-12-29T20:46:18 IST" duration-ms="785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupReport -->
+        <test-method signature="Test1()[pri:1, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:18 IST" name="Test1" finished-at="2024-12-29T20:46:18 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:18 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:18 IST" duration-ms="315" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Test1 status=SUCCESS method=IndexPageTest.Test1()[pri:1, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method signature="validateSignup()[pri:2, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:18 IST" name="validateSignup" finished-at="2024-12-29T20:46:25 IST" duration-ms="6895" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignup -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:25 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:25 IST" duration-ms="299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateSignup status=SUCCESS method=IndexPageTest.validateSignup()[pri:2, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method signature="validateLogin()[pri:3, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:25 IST" name="validateLogin" finished-at="2024-12-29T20:46:32 IST" duration-ms="6525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogin -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:32 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:32 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateLogin status=SUCCESS method=IndexPageTest.validateLogin()[pri:3, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method signature="testCategoriesAndOptions()[pri:4, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:32 IST" name="testCategoriesAndOptions" finished-at="2024-12-29T20:46:32 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCategoriesAndOptions -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:32 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:32 IST" duration-ms="269" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCategoriesAndOptions status=SUCCESS method=IndexPageTest.testCategoriesAndOptions()[pri:4, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method signature="testAddProductToCart()[pri:5, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:32 IST" name="testAddProductToCart" finished-at="2024-12-29T20:46:37 IST" duration-ms="4489" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddProductToCart -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:37 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:37 IST" duration-ms="201" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testAddProductToCart status=SUCCESS method=IndexPageTest.testAddProductToCart()[pri:5, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method signature="clickOnCart()[pri:6, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:37 IST" name="clickOnCart" finished-at="2024-12-29T20:46:44 IST" duration-ms="7271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCart -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:44 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:45 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clickOnCart status=SUCCESS method=IndexPageTest.clickOnCart()[pri:6, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method signature="OrderDetails()[pri:7, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:45 IST" name="OrderDetails" finished-at="2024-12-29T20:46:50 IST" duration-ms="5450" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderDetails -->
+        <test-method is-config="true" signature="captureScreenshotAfterTest(org.testng.ITestResult)[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:50 IST" name="captureScreenshotAfterTest" finished-at="2024-12-29T20:46:50 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=OrderDetails status=SUCCESS method=IndexPageTest.OrderDetails()[pri:7, instance:com.Test.IndexPageTest@431cd9b2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:50 IST" name="tearDown" finished-at="2024-12-29T20:46:51 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:com.Test.IndexPageTest@431cd9b2]" started-at="2024-12-29T20:46:51 IST" name="tearDownReport" finished-at="2024-12-29T20:46:51 IST" duration-ms="533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- com.Test.IndexPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
